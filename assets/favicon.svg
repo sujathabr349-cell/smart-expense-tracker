@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="walletGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Shield/Rounded Tile -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#walletGrad)" stroke="#334155" stroke-width="1.5"/>
+  <!-- Growth Chart Line -->
+  <path d="M10 32 L19 23 L26 28 L38 15" stroke="url(#primaryGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Trend Arrow Point -->
+  <path d="M30 15 H38 V23" stroke="#059669" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Coin / Savings Token -->
+  <circle cx="19" cy="23" r="2.5" fill="#10b981"/>
+  <circle cx="26" cy="28" r="2.5" fill="#0284c7"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Smart Expense Tracker",
+  "description": "A professional personal finance management web application to track income, expenses, budgets, savings goals, and financial analytics with local persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
